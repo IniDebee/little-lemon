@@ -3,7 +3,12 @@ import * as React from 'react';
 import {render,screen} from "../../utils/tests";
 import BookingForm from "./BookingForm";
 // import userEvent from "@testing-library/user-event";
-import { submitAPI, fetchAPI, initializeTimes, updateTimes  } from "../BookingPage";
+import {
+  submitAPI,
+  fetchAPI,
+  initializeTimes,
+  updateTimes,
+} from "../../routes/BookingPage";
 
 describe("BookingForm", () => {
   test("Renders labels and fields", () => {
